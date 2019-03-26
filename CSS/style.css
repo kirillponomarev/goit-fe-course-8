@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    min-height: 539px;
+    background-repeat: no-repeat;
+    background-color: #000000;
+}
+
+.wrapper {
+    min-height: 539px;
+    background-image: url(../img/people2.png);
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.list {
+    display: flex;
+    list-style: none;
+    min-width: 140px;
+    justify-content: space-between;
+}
+
+.list-item {
+    padding: 10px 15px;
+}
+
+.list-item > a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: sans-serif;
+    /* border: 2px solid #ffffff;
+    border-radius: 25px; */
+}
+
+.list-item > a:hover {
+    border: 2px solid #ffffff;
+    border-radius: 25px;
+}
