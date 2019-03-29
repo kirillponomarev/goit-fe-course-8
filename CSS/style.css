@@ -42,7 +42,7 @@
 
 
 .wrapper > h1 {
-    width: 280px;
+    max-width: 280px;
     margin: auto;
     text-align: center;
     font-size: 30px;
@@ -53,7 +53,7 @@
 }
 
 .wrapper > p {
-    width: 220px;
+    max-width: 220px;
     margin: auto;
     text-align: center;
     font-size: 18px;
@@ -96,10 +96,10 @@
 
 
 .container {
-  max-width: 262px;
-  padding: 66px 29px 0px 29px;
-  text-align: center;
-  margin:0 auto
+    width: 262px;
+    padding: 66px 29px 0px 29px;
+    text-align: center;
+    margin:0 auto
 }
 
 .headlineh2 {
@@ -112,7 +112,7 @@
 
 .list {
     list-style: none;
-    max-width: 224px;
+    width: 224px;
     margin: auto;
 }
 
@@ -137,20 +137,20 @@ p {
 }
 
 .button-link2 {
-  display: block;
-  margin: 0 auto;
-  margin-bottom: 30px;
-  max-width: 280px;
-  padding: 12px 0;
-  text-align: center;
-  text-decoration: none;
-  color: #ff4e50;
-  border: 2px solid #ff4e50;
-  border-radius: 25px;
-  transition: all 200ms linear;
-  font-size: 14px;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    max-width: 280px;
+    padding: 12px 0;
+    text-align: center;
+    text-decoration: none;
+    color: #ff4e50;
+    border: 2px solid #ff4e50;
+    border-radius: 25px;
+    transition: all 200ms linear;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
 }
 
 .button-link2:hover {
