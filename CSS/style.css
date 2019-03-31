@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+        /* Стилизация и Позиционирование HEADER-'Wrapper' */
+
+
+
+
+.wrapper {
+    max-width: 320px;
+    min-height: 540px;
+    background: url(../img/bgphoto/mobile-bg.jpg);
+    background-repeat: no-repeat;
+    margin: auto;
+}
+
+
+
+        /* Стилизация и позиционирование div-'nav'
+           и div-'link-button' */
+
+
+
+.nav {
+    /* outline: 1px solid #000; */
+    width: 56.25%;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.link-button {
+    /* outline: 1px solid #000; */
+    display: flex;
+    margin-bottom: 110px;
+}
+
+.link-button > a {
+    display: block;
+    width: 50%;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.login, .signup {
+    /* outline: 1px solid #000; */
+    padding: 10px 0;
+    text-align: center;
+    border: 2px solid transparent;
+    border-radius: 20em;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    transition: all 150ms linear;
+}
+
+.login:hover,
+.signup:hover {
+    border: 2px solid #ffffff;
+    border-radius: 20em;
+}
+
+.logo {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+
+        /* Стилизация и Позиционирование div-'header-text' */
+
+
+
+
+.header-text {
+    width: 93.75%;
+    margin: auto;
+    text-align: center;
+}
+
+.header-text > h1 {
+    font-size: 30px;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.header-text > p {
+    display: block;
+    margin: auto;
+    width: 68.75%;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+
+
+        /* Делаю bottom-link */
+
+a {
+    text-decoration: none;
+}
+
+.bottom-link {
+    width: 86.875%;
+    margin: auto;
+    text-align: center;
+    border: 2px solid #ff4e50;
+    border-radius: 20em;
+    padding: 10px 0;
+    transition: all 150ms linear;
+}
+
+.bottom-link > p {
+    font-size: 14px;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.bottom-link:hover {
+    background-color: #ff4e50;
+}
+
+
+
+
+        /* Работа над MAIN */
+
+
+
+.wrapper2 {
+    max-width: 320px;
+    margin: auto;
+}
+
+.main-headline {
+    width: 81.25%;
+    margin: auto;
+    text-align: center;
+    padding-top: 65px;
+    font-size: 22px;
+    color: #333333;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+
+.people-logo {
+    width: 38.125%;
+    margin: auto;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.image {
+    border-radius: 50%;
+}
+
+.icon {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+h3 {
+    text-align: center;
+    font-size: 14px;
+    color: #333333;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.wrapper2 > p {
+    width: 60.93%;
+    margin: auto;
+    text-align: center;
+    font-size: 14px;
+    color: #666666;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin-bottom: 28px;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.main-bottom-link {
+    width: 86.875%;
+    margin: auto;
+    text-align: center;
+    border: 2px solid #ff4e50;
+    border-radius: 20em;
+    padding: 10px 0;
+    margin-bottom: 58px;
+    transition: all 150ms linear;
+}
+
+.main-bottom-link > p {
+    font-size: 14px;
+    color: #ff4e50;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.main-bottom-link:hover {
+    background-color: #ff4e50;
+}
+
+.main-bottom-link:hover > p {
+    color: #ffffff;
+}
