@@ -1,0 +1,7 @@
+@media (min-width: 768px) {
+    .wrapper {
+        max-width: 768px;
+        min-height: 700px;
+        background: url(../img/bgphoto/tablet-bg.jpg);
+    }
+}
