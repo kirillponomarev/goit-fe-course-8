@@ -7,9 +7,6 @@
 
         /* Стилизация и Позиционирование HEADER-'Wrapper' */
 
-
-
-
 .wrapper {
     max-width: 320px;
     min-height: 540px;
@@ -142,6 +139,7 @@ a {
 
 
 .wrapper2 {
+    /* outline: 1px solid black; */
     max-width: 320px;
     margin: auto;
 }
@@ -177,6 +175,7 @@ a {
 }
 
 .item-main {
+    /* outline: 1px solid black; */
     max-width: 200px;
     margin: auto;
 }

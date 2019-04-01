@@ -4,11 +4,14 @@
             /* HEADER */
 
 
+
     .wrapper {
         min-width: 768px;
         min-height: 700px;
         background: url(../img/bgphoto/tablet-bg.jpg);
+        margin: auto;
     }
+
 
     .nav {
         width: 86.45%;
@@ -86,5 +89,59 @@
 
     .main-bottom-link {
         width: 25.39%;
+    }
+}
+
+@media (min-width: 940px) {
+
+
+            /* HEADER */
+
+
+
+    .wrapper {
+        min-width: 1440px;
+        background: url(../img/bgphoto/desktop-bg.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .nav {
+        width: 65.27%;
+    }
+
+    .header-text {
+        width: 35.069%;
+    }
+
+    .header-text > p {
+        width: 79.20%;
+    }
+
+    .bottom-link {
+        width: 15.27%;
+    }
+
+
+            /*  MAIN  */
+
+
+
+    .wrapper2 {
+        min-width: 1440px;
+        margin: auto;
+    }
+
+
+    .qwer {
+        width: 940px;
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .main-bottom-link {
+        width: 15.27%;
     }
 }
